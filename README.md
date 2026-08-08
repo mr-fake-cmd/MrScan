@@ -80,16 +80,23 @@ $ python mrscan.py
 ```
 $ sudo apt update
 
-$ sudo apt install git python3 python3-pip curl iproute2 net-tools iputils-ping grep gawk -y
+$ sudo apt install git python3 python3-full python3-venv curl iproute2 net-tools iputils-ping grep gawk -y
 
 $ git clone https://github.com/mr-fake-cmd/MrScan
 
 $ cd MrScan
 
-$ pip3 install -r requirements.txt
+$ python3 -m venv .venv
+
+$ source .venv/bin/activate
+
+$ pip install -r requirements.txt
 
 $ python3 mrscan.py
 ```
+<blockquote>
+  💡 <strong>Note:</strong> On <strong>Kali, Debian, Ubuntu</strong>, and other Linux distributions that use <strong>PEP 668</strong>, MrScan uses a <strong>Python virtual environment (<code>venv</code>)</strong> to safely install its Python dependencies <strong>without modifying the system Python environment</strong>.
+</blockquote>
 
 ### Screenshots
 
