@@ -27,7 +27,7 @@ Platform  : Termux / Linux
 License   : MIT
 
 GitHub:
-https://github.com/YOUR_USERNAME/MrScan
+https://github.com/mr-fake-cmd/MrScan
 """
 
     console.print(
