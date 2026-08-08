@@ -101,3 +101,7 @@ $ python3 mrscan.py
 <p align="center">
 If you found MrScan useful, consider giving the repository a ⭐ and sharing it with others. 
 
+<p align="center">
+  <img title="Made in Bangladesh" src="https://img.shields.io/badge/MADE%20IN-BANGLADESH%20%E2%80%A2-006A4E?style=for-the-badge&labelColor=F42A41">
+  <img title="Developer Jarif" src="https://img.shields.io/badge/DEVELOPER-JARIF-7C4DFF?style=for-the-badge&labelColor=111111">
+</p>
