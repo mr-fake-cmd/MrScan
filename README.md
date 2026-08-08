@@ -58,3 +58,46 @@ Everything is presented through a clean, readable and beginner-friendly terminal
 •Added📱 Termux Support✅
 •Added🐧 Linux Support✅
  ```
+ ### Installation MrScan
+  
+* `Commands` for Termux
+```
+$ termux-setup-storage
+
+$ pkg update && pkg upgrade -y
+
+$ pkg install git python curl iproute2 net-tools iputils grep gawk -y
+
+$ git clone https://github.com/mr-fake-cmd/MrScan
+
+$ cd MrScan
+
+$ pip install -r requirements.txt
+
+$ python mrscan.py 
+```
+* `Commands` for Linux
+```
+$ sudo apt update
+
+$ sudo apt install git python3 python3-pip curl iproute2 net-tools iputils-ping grep gawk -y
+
+$ git clone https://github.com/mr-fake-cmd/MrScan
+
+$ cd MrScan
+
+$ pip3 install -r requirements.txt
+
+$ python3 mrscan.py
+```
+
+### Screenshots
+
+#### MrScan Main Interface:-
+
+![MrScan Main Interface](./screenshot/readme_ss.jpg)
+---
+# <p align="center">Thank You for Using MrScan!
+<p align="center">
+If you found MrScan useful, consider giving the repository a ⭐ and sharing it with others. 
+
